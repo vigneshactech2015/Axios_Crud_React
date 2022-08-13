@@ -13,6 +13,8 @@ export default function Read() {
             })
     }, []);
 
+    //to pass data(id) for update operation
+    
     const setData = (data) => {
         let { id, firstName, lastName, checkbox } = data;
         localStorage.setItem('ID', id);
